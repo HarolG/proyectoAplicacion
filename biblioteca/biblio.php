@@ -66,8 +66,8 @@
             <div class="contenedor_paz">
                 <a id="btn_pazysalvo">PAZ Y SALVO</a>
                 <div class="cuadro" id="cuadro">
-                    <form method="POST" id="frm_1">
-                        <label action="" for="documento">Documento de identidad</label>
+                    <form action="../paz_y_salvo/pazysalvo.php" method="POST" id="frm_1">
+                        <label for="documento">Documento de identidad</label>
                         <input class="input" type="number" name="documento" id="documento" placeholder="Ingrese el documento">
                         <input class="submit" type="submit" value="Buscar">
                     </form>
