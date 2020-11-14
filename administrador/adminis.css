@@ -1,0 +1,304 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-color: rgb(223, 223, 223) ;
+    font-family: Verdana;
+}
+
+.princi{
+    background-color: #ffffff;
+    height: 110px;
+
+}
+
+
+.segui{
+    position:absolute;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-left: 13%;
+    margin-top: 1%;
+    color: rgb(65, 65, 66);
+}
+
+.imagen{
+    position: absolute;
+    z-index: 111;
+}
+.logo .seguiimg{
+    margin-left: 5px;
+}
+
+.segun{
+    position: absolute;
+    margin-left: 0%;
+    z-index: 1;
+    margin-top: -2.2%;
+
+}
+.segu{
+    position: absolute;
+    margin-left: 85.3%;
+    z-index: 1;
+    margin-top: -1.9%;
+}
+.navegacion {
+    background: white;
+    display: table;
+    width: 85%;
+    padding: 0 5.5em;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 16px;
+    border-color: rgb(97, 0, 16) transparent;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    
+}
+.cerrar li a{
+    font-family: Verdana;
+    font-size: 15px;
+    color: #5d57bb;
+}
+.cerrar {
+    position: absolute;
+    list-style: none;
+    margin-left: 13%;
+    margin-top: 3.5%;
+}
+
+
+.navegacion  ul  li {
+    list-style: none;
+    margin: auto;
+    margin-left: 0px;
+}
+.navegacion .menu img{
+    margin-right: 15px;
+    margin: -5px 5px;
+}
+
+
+.menu  li {
+    font-family: Verdana;
+    display: inline-block;
+
+}
+
+.menu  li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(61, 61, 61);
+    font-family: Verdana;
+    text-decoration: none;
+}
+.fondo{
+    margin-top: 5px;
+    margin-left: 45px;
+}
+.naranja .perfil{
+    position: absolute;
+    z-index: 11;
+    margin-top: -120px;
+    margin-left: 535px;
+    background-color: #fc7323;
+    border-radius: 300px;
+    height: 250px;
+    width: 20%;
+
+}
+
+
+.contenedor{
+    position: absolute;
+    background-color: #ffffff;
+    width: 90%;
+    height: 150px;
+    margin-left: 60px;
+    margin-top: 10%;
+
+}  
+.date{
+    position: relative;
+    background-color: #ffffff;
+    border:2px solid;
+    border-color: #353434;
+    width:96%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 2%;
+    text-align: center;
+} 
+.date .datos p{
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana;
+    color: black;
+    text-align: center;
+}
+.date .datos .text2{
+    text-align: left;
+    max-width: 10px;
+}
+
+
+.button { /*editar*/
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    width: 170px;
+    text-align: center;
+    margin-top: 29%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background: #26287a;
+    top: 410px;
+    margin-left: 1000px;
+    border-radius: 20px;
+   
+}
+
+.button:hover{
+    background-color: rgb(100, 8, 8);
+    color: white;
+  
+}
+.button2 .butuno{
+    margin-right: 15px;
+    margin: -10px 10px;
+}
+
+.button2{ /*legalizacion*/
+    position: relative;
+    text-decoration: none;
+    margin: 0%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-family: verdana;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background: white;
+    top: 490px;
+    margin-left: 810px;
+    border-radius: 20px;
+    border-color: #4d0505 transparent;
+    border-style: solid;
+    border-width: 2px;
+    }
+    
+.button2:hover{
+       
+        background-color: rgb(92, 17, 21);
+        color: white;
+}
+.button3 .butdos{
+    margin-right: 15px;
+    margin: -10px 10px;
+}
+.button3 { /*certificacion*/
+
+        position: relative;
+        text-decoration: none;
+        margin: 0%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        font-family: verdana;
+        width: 170px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        margin-left: 520px;
+        border-radius: 20px;
+        border-color: #4d0505 transparent;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .button3:hover {
+        color: white;
+        background-color: rgb(92, 17, 21);
+    }
+    .button4 .buttres{
+        margin-right: 15px;
+        margin: -10px 10px;
+    }
+
+    .button4 { /*aprendices*/
+        position: relative;
+        text-decoration: none;
+        margin: 0%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        font-family: Verdana;
+        width: 170px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        margin-left: -550px;
+        border-radius: 20px;
+        border-color: #4d0505 transparent;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .button4:hover{
+        background-color: rgb(92, 17, 21);
+        color: white;
+        
+    }
+
+.pie {
+    background-color: #420b0b;
+    margin-top:600px;
+}
+.pie{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: #460d0d;
+    margin-top:600px;
+    display: flex;
+    align-items: flex-end;
+    border-top: 2px solid #fff;
+    margin-left: 0px;
+    
+}
+.pie img
+{
+    margin-left: 10px;
+    
+}
+.info 
+{
+   border-left: solid var(--white);
+   margin: 4px;
+   
+}
+.info p
+{
+    font-size: 12px;
+    color: #fff;
+    font-family: Verdana;
+    margin: 4px;
+    margin-left: 5px;
+    font-family: Verdana;
+}

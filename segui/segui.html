@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">    
+    <link rel="shortcut icon" href="../imagenes/usuario.jpg" type="image/x-icon">
+    <title>Seguimiento</title>
+</head>
+
+
+<body>
+   
+    <header class="princi">
+       
+        <div class="logo">
+
+            <img class="imagen"  height="90" width="90" src="../imagenes/Imagen1.png"  alt="">
+            <h3 class="segui">SEGUIMIENTO <img class="seguiimg" width="30" height="30" src="../imagenes/Imagen4.png" alt=""></h3>
+
+          
+
+            <ul class="cerrar">
+                <li><a href="#">CERRAR SESIÓN</a></li>
+            </ul>
+            <div class="segun">
+                <img height="220" src="../imagenes/verdeazulado.png" alt="">
+            </div>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="#"><img class="uno" width="30" height="30"  src="../imagenes/Imagen9.png" alt="">LEGALIZACIÓN </a></li>
+                <li><a href="#"><img class="dos" width="26" height="30" src="../imagenes/Imagen5.png" alt="">CERTIFICACIÓN</a></li>
+                <li><a href="#"><img class="tres"  width="37" height="30" src="../imagenes/Imagen6.png" alt="">APRENDIZ</a></li>
+            </ul>  
+        </nav>
+
+    </header>
+    
+    <div class="fondo">
+        <img width="1250" height="400" src="../imagenes/perfilSegui.jpeg" alt="">
+    </div>
+    <div class="naranja" ><img class="perfil" src="../imagenes/PERFIL.jpg" alt=""></div>
+    <div class="contenedor">
+        <div class="date">
+            <ul class="datos">
+                <p>Soy  una persona empendedora que mira hacia adelante y simepre intenta ser mejor cada  dia</p>
+                <p class="text2">NOMBRE: EDAD: TELEFONO: EMAIL:</p>
+            </ul>
+        </div>
+    </div>
+    <a href="#" class="button">EDITAR</a>
+    <a href="#" class="button2"> <img class="butuno" height="30" width="30" src="../imagenes/Imagen9.png" alt="" srcset=""> LEGALIZACIÓN</a>
+    <a href="#" class="button3"> <img class="butdos" height="30" width="30" src="../imagenes/Imagen5.png" alt="" srcset="">CERTIFICACIÓN</a>
+    <a href="#" class="button4"> <img class="buttres" height="30" width="55" src="../imagenes/Imagen6.png" alt="" srcset="">APRENDICES</a>
+    <footer class="pie">
+        <img  height="70px" width="70px" src="../imagenes/logo blanco.jpg" alt="">
+        <div class="info">
+            <p>&copy; Servicio Nacional de Aprendizaje SENA </p>
+            <p>Centro de Industria y Construccion- Ibague-Tolima </p>
+           
+            <p> Direccion: 141- Sector, Cra. 45 Sur #1255</p>
+          </div>
+    </footer>
+    <!--FORMULARIOS-->
+    <div class="formLegalizar">
+        <div class="buscardor">
+            <h3 class="subTitulo1">BUSCAR DOCUMENTO</h3>
+            <form method="POST" id="buscarDocu" name="buscarDocu" class="buscarDocu" autocomplete="off">
+                <input class="inputB" type="number" id="documento">
+                <div class="boton">
+                    <a href="" id= "boton"><img class= "boton" src="../imagenes/Imagen3.png" height="50px" width="50px" ></a>
+                </div>
+            </form>
+        </div>
+        <div class="informa">
+            <div id="informa">
+                <div class="datosMostrar">
+                    <h3 class="subTitulo">*DATOS APRENDIZ</h3>
+                    <div class="datosApre">
+                        <div class="dato">
+                            <label class ="label" for="">NOMBRE: </label>
+                            <!-- NO BORRAR LAS CLASES -->
+                            <label class ="datos" for=""></label>
+                        </div>
+                        <div class="dato">
+                            <label class ="label" for="">IDENTIFICACIÓN: </label>
+                            <label class ="datos" for=""></label>
+                        </div>
+                        <div class="dato">
+                            <label class ="label" for="">TELEFONO: </label>
+                            <label class ="datos" for=""></label>
+                        </div>
+                        <div class="dato">
+                            <label class ="label" for="">E-MAIL: </label>
+                            <label class ="datos" for=""></label>
+                        </div>
+                        <div class="dato">
+                            <label class ="label" for="">ESTADO: </label>
+                            <label class ="datos" for=""></label>
+                        </div> 
+                    </div><br>
+    
+                    <h3 class="subTitulo">*DATOS FORMACIÓN</h3>
+    
+                    <div class="datosForma">
+                        <div class="dato">
+                            <label class ="label" for="">REGIONAL: </label>
+                            <label class ="datos" for="">$bd</label>
+                        </div>
+    
+                        <div class="dato">
+                            <label class ="label" for="">NO.FICHA: </label>
+                            <label class ="datos" for="">$bd</label>
+                        </div>
+    
+                        <div class="dato">
+                            <label class ="label" for="">CENTRO DE FORMACIÓN: </label>
+                            <label class ="datos" for="">$bd</label>
+                        </div>
+    
+                        <div class="dato">
+                            <label class ="label" for="">PROGRAMA DE FORMACIÓN: </label>
+                            <label class ="datos" for="">$bd</label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+           
+            <div class="botones">
+                <input class="botonForm" type="button" value="Registar Empresa" id="btnEmpresa">
+                <input class="botonForm" type="button" value="Legalizar" id="btnLegalizar">
+            </div>
+        </div>
+        <div class="registroEmpre">
+            <form method="POST" id="registroEmpre" name="registroEmpre" autocomplete="off">
+
+                <h1 class="tituloForm">FORMULARIO DE REGISTRO EMPRESA</h1>
+
+                <label class ="label" for="">*Razón Social Empresa: </label>
+                <input class ="inputR" type="text">
+
+                <label class ="label" for="">*Nit: </label>
+                <input class ="inputR" type="number">
+
+                <label class ="label" for="">*Dirección: </label>
+                <input class ="inputR" type="text">
+
+                <label class ="label" for="">*Nombre Jefe Inmediato: </label>
+                <input class ="inputR" type="text">
+
+                <label class ="label" for="">*Cargo: </label>
+                <input class ="inputR" type="text">
+
+                <label class ="label" for="">*Teléfono: </label>
+                <input class ="inputR" type="number">
+
+                <label class ="label" for="">*E-mail: </label>
+                <input class ="inputR" type="email">
+
+                <div class="botones">
+                    <input class="botonForm" type="button" value="GUARDAR">
+                    <input class="botonForm" type="button" value="CANCELAR">
+                </div>
+            </form>
+        </div>
+
+        <div class="registroLegal">
+            <h1 class="tituloForm">REGISTRO LEGALIZACIÓN</h1>
+            <label class ="label" for="">*Seleccione el tipo de alternativa:</label>
+            <select class = "seleccionTipo" id="tipo" name= "seleccionTipo">
+                <option value="0" placeholder="tipo de alternativa"></option>
+                <option value="1" placeholder="tipo de alternativa">hola bebe</option>
+                <!-- codigo para insertar los registros de tipo de alternativas de la bd<?php
+                    $query = $conexion -> query ("SELECT * FROM nombre de la tabla ");
+                    while ($valores = mysqli_fetch_array($query)) 
+                    { echo '<option value="'.$valores[llave de la tabla].'">'.$valores[campo para mostrar].'</option>';}
+                ?> -->
+            </select>
+
+            <div class="cargaDocu">
+               <Label class ="label">*Nombre del Documento</Label>
+               <input class="archivo" type="file" name="file">
+            </div>
+
+            <div class="botones">
+                <input class="botonForm" type="button" value="GUARDAR">
+                <input class="botonForm" type="button" value="CANCELAR">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="formCertificar">
+        <div class="informa2">
+            <div class="buscador2">
+                <h3 class="subTitulo2">BUSCAR DOCUMENTO</h3>
+                <form method="POST" id="buscarDocu" name="buscarDocu" class="buscarDocu" autocomplete="off">
+                    <input class="inputE" type="number">
+                    <div class="boton2">
+                        <a href="" id= "boton2"><img class= "boton2" src="../imagenes/Imagen3.png" height="50px" width="50px" ></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="datosMostrar2">
+            <h3 class="subTitulo">*DATOS APRENDIZ</h3>
+            <div class="datosApre2">
+                <div class="dato2">
+                    <label class="label2" for="">NOMBRE: </label>
+                    <label class ="inputC" for="">$bdlslsjghjghj</label>
+                </div>
+                <div class="dato2">
+                    <label class="label2" for="">TELEFONO: </label>
+                    <label class ="inputC"for="">$bdlslslghjghj</label>
+                </div>
+                <div class="dato2">
+                    <label  class="label2" for="">E-MAIL: </label>
+                    <label  class ="inputC" for="">$bdjghjghlkñklj</label>
+                </div>
+                <div class="dato2">
+                    <label  class="label2" for="">IDENTIFICACIÓN: </label>
+                    <label  class ="inputC"for="">$bdlslslshjgh</label>
+                </div>
+
+
+                <div class="dato2">
+                    <label  class="labelE" for="">ESTADO E.P: </label>
+                    <label  class ="inputC" for="">$bdlslsls</label>
+                </div>
+
+            </div><br>
+
+
+            <h3 class="subTitulo">*DATOS LEGALIZACIÓN</h3>
+            <div class="datosForma2">
+                <div class="dato">
+                    <label class ="label2" for="">TIPO DE ALTERNATIVA: </label>
+                    <label  for="">$bd</label>
+                </div>
+                <!--CODIGO PARA VER DOCUEMENTOS CARGADOS -->
+                <br>
+            </div>
+        </div>
+
+        <div class="cargaArchi">
+            <form method="POST" id="cargaArchi" name="cargaArchi" autocomplete="off">
+                <h1 class="tituloForm">REGISTRO DE CERTIFICACIÓN</h1>
+                <Label class ="label"><input type="checkbox" name="" id="">|COMPETANCIAS ETAPA LECTIVA Y PRODUCTIVA AL DIA</Label>
+                
+                <h3 class="subTitulo">*CARGA DE DOCUMENTOS</h3>
+                
+                <Label class ="label">1) Compromiso de Certificación:</Label>
+                <input class="archivo" type="file" name="file">
+
+                <Label class ="label">2) Constancia Laboral:</Label>
+                <input class="archivo" type="file" name="file">
+
+                <Label class ="label">3) Formato de Seguimiento:</Label>
+                <input class="archivo" type="file" name="file">
+
+                <Label class ="label">4) Formato Prueba Saber Pro:</Label>
+                <input class="archivo" type="file" name="file">
+
+                <Label class ="label">5) Formato Paz y Salvo:</Label>
+                <input class="archivo" type="file" name="file">
+                
+                <Label class ="label">6) Formato APE (Agencia Publica de Empleo):</Label>
+                <input class="archivo" type="file" name="file">
+
+                <Label class ="label">7) Documento de Identidad al 150%:</Label>
+                <input class="archivo" type="file" name="file">
+                
+                <div class="botones2">
+                    
+                    <input class="botonForm2" type="button" value="GUARDAR">
+                    <input class="botonForm2" type="button" value="CERRAR">
+                </div>
+
+            </form>  
+        </div>
+    </div>
+  <script src="segui.js"></script>
+</body>
+</html>
+
+

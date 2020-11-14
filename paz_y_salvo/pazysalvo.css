@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.contenedor {
+    padding: 5px;
+}
+
+/* Header formulario */
+
+.contenedor_header {
+
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.header_logo {
+    width: 20%;
+}
+
+
+.header_titulo {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Datos formulario */
+
+.paz_datos {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.datos_paz {
+    display: flex;
+    width: 50%;
+    padding: 20px 10px;
+
+    border-right: 2px dotted black;
+}
+
+.datos_paz p {
+    font-size: 12px;
+}
+
+.datos_paz-lineas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.datos_paz-lineas div{
+    width: 400px;
+    height: 1px;
+    border-bottom: 1px dotted black;
+    margin: 8px 0;
+    margin-left: 40px;
+}
+
+/* Datos del aprendiz */
+
+.paz_datos-usuario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.datos_usuario-header {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.contenedor-columnas {
+    display: flex;
+}
+
+.datos_usuario-columna1, .datos_usuario-columna2 {
+    width: 50%;
+}
+
+.datos_usuario-columna1 p, .datos_usuario-columna2 p{
+    font-size: 13px;
+    margin: 10px;
+}
+
+.datos_usuario-columna1 div, .datos_usuario-columna2 div {
+    border-bottom: 2px dotted black;
+}
+
+.paz_responables {
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+                         
+}
+
+.paz_responsables-funcionarios {
+    grid-area: funcionarios;
+}
+
+.paz_responsables-marcar {
+    grid-area: marcar;
+}
+
+.paz_responsables-responsables {
+    grid-area: responsables;
+    text-align: center;
+}
+
+.paz_responsables-descripcion {
+    grid-area: descripcion;
+}
+
+.paz_responsables-nombres {
+    grid-area: nombres;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.grid-columna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.columnas {
+    width: 100%;
+    height: auto;
+}
+
+.firma_form-desaparecer{
+    display: none;
+}
+
+.fila {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.fila-especial {
+    height: 101px;
+    width: 100%;
+}
+
+.fila-especial1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+
+.fila-especial2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-especial3 {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-especial4 {
+    width: 100%;
+    height: 50%;
+
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-especial5 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+    width: 100%;
+    height: 50%;
+}
+
+.fila-especial6 {
+    width: 99.53%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.paz_responables p {
+    font-size: 12px;
+}
+

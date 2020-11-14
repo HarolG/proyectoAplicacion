@@ -1,0 +1,113 @@
+[33mcommit f80c8bbc17f727a5298a824693f9fd43ccdc634d[m[33m ([m[1;36mHEAD -> [m[1;32mholman[m[33m, [m[1;31morigin/holman[m[33m)[m
+Merge: a9cead3 8475c12
+Author: Holwan David Montes <67131512+HOLWAN-MONTES@users.noreply.github.com>
+Date:   Thu Nov 12 12:53:40 2020 -0500
+
+    Merge branch 'master' into holman
+
+[33mcommit a9cead328b86bb7d8bd616e2bd6af6e990b3bc62[m
+Author: Holwan david montes <holmanmontesmontes57@gmail.com>
+Date:   Thu Nov 12 12:44:13 2020 -0500
+
+    subiendo al coneccion a la base de datos e ingresando un archivo php para el ingreso de los usuarios
+
+[33mcommit 8475c12019ad9458b5dcc951039408c347c24d44[m
+Merge: ff95659 a28f2ac
+Author: jeyson <61909339+camiloguz23@users.noreply.github.com>
+Date:   Thu Nov 12 11:47:19 2020 -0500
+
+    Merge pull request #5 from camiloguz23/jeyson
+    
+    Jeyson
+
+[33mcommit a28f2ac062be0a0d0376806078f100971741b0a3[m[33m ([m[1;31morigin/jeyson[m[33m)[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Thu Nov 12 11:44:41 2020 -0500
+
+    correcion
+
+[33mcommit 3b54d8754115f55d0706f462badf11e7b0fea24a[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Thu Nov 12 11:40:08 2020 -0500
+
+    cambio de index
+
+[33mcommit ff95659394ed35f36cc523f0f777edff45e40dd4[m
+Merge: 5c641a6 6fd1d28
+Author: stefaniahe <62262988+stefaniahe@users.noreply.github.com>
+Date:   Thu Nov 12 11:28:32 2020 -0500
+
+    Merge pull request #4 from camiloguz23/Stefania
+    
+    Organizacion del login
+
+[33mcommit 6fd1d28e0439818ce4ec9e42dde9fdeaf1f26fa0[m[33m ([m[1;31morigin/Stefania[m[33m)[m
+Author: stefania herrera <herrerastefania904@gmail.com>
+Date:   Thu Nov 12 11:27:47 2020 -0500
+
+    Organizacion del login
+    
+    Se organizo el ingreso del usuario
+
+[33mcommit 5c641a6dca9d090a724de73e1bf6263250620631[m
+Merge: 5a19cbe 0373d73
+Author: jeyson <61909339+camiloguz23@users.noreply.github.com>
+Date:   Thu Nov 12 11:27:36 2020 -0500
+
+    Merge pull request #3 from camiloguz23/jeyson
+    
+    coneccion
+
+[33mcommit 0373d73fdc01cf168ac8c56922752f2c26b3e9a1[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Thu Nov 12 11:25:56 2020 -0500
+
+    coneccion
+
+[33mcommit 5a19cbeaa1a1293495b9d99597c4406d89b2b398[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 26b4125 a8a379c
+Author: jeyson <61909339+camiloguz23@users.noreply.github.com>
+Date:   Thu Nov 12 11:17:48 2020 -0500
+
+    Merge pull request #2 from camiloguz23/jeyson
+    
+    agrege carpeta php y archivos
+
+[33mcommit a8a379c948642229b3ce556531fea7a1d4461092[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Thu Nov 12 11:16:26 2020 -0500
+
+    eliminacion debug
+
+[33mcommit daa941b0dee6bada6dc8ef55889bc16d83951852[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Thu Nov 12 10:59:49 2020 -0500
+
+    agrege carpeta php y archivos
+
+[33mcommit 26b412504b093692ab710fffcdcde50fa8216bca[m
+Merge: ec93d6a d319b7f
+Author: Holwan David Montes <67131512+HOLWAN-MONTES@users.noreply.github.com>
+Date:   Thu Nov 12 10:55:07 2020 -0500
+
+    Merge pull request #1 from camiloguz23/holman
+    
+    conectando el html de index con css
+
+[33mcommit d319b7fcae2b5c4c91da5e73190847517149293e[m
+Author: Holwan david montes <holmanmontesmontes57@gmail.com>
+Date:   Thu Nov 12 10:50:49 2020 -0500
+
+    conectando el html de index con css
+
+[33mcommit ec93d6ab96088b3db350522a695548a6f32e7cf0[m[33m ([m[1;31morigin/Daniela_Nieto[m[33m)[m
+Author: ashley10 <axagudelo4@misena.edu.co>
+Date:   Thu Nov 12 10:34:16 2020 -0500
+
+    creacion de archivos
+
+[33mcommit d1946c071aa243d7cc84910d81998941e57cc9f8[m
+Author: camilo <jcguzman8548@misena.edu.co>
+Date:   Wed Nov 11 13:01:15 2020 -0500
+
+    primeros archivos

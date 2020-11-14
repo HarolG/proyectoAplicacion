@@ -1,0 +1,476 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    body 
+    {
+        padding: 0%;
+        margin: 0%;
+        background: rgb(223, 222, 222);
+        font-family: Verdana;
+        height: auto;
+    }
+
+    /*encabezado*/
+
+    .princi
+    {
+        background-color: #ffffff;
+        height: 110px;
+    }
+
+    .cerrar
+    {
+        margin-left: 10%;
+    }
+    .cerrar  a
+    {
+        font-family: Verdana;
+        font-size: 15px;
+        color: #238276;
+    }
+
+    .logo .segui
+    {
+        font-family: Verdana;
+        font-size: 20px;
+        margin-left: 9%;
+        margin-top: -5%;
+        color: #fc7323;
+    }
+
+    .logo .seguiimg
+    {
+        margin-left: 5px;
+    }
+
+    .segun
+    {
+        position: absolute;
+        margin-left: 83.2%;
+        z-index: 1;
+        margin-top: -6.2%;
+
+    }
+
+    /*menu*/
+
+    .navegacion 
+    {
+        background: white;
+        display: table;
+        width: 86%;
+        padding: 0 5.5em;
+        position: absolute;
+        margin-top: 12px;
+        border-color: #fc7323 transparent;
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    .navegacion  ul  li 
+    {
+        list-style: none;
+        margin: auto;
+        margin-left: 7%;
+    }
+
+    .navegacion .menu img
+    {
+        margin-right: 15px;
+        margin: -7px 5px;
+    }
+
+    .menu  li 
+    {
+        display: inline-block;
+    }
+
+    .menu  li a 
+    {
+        display: block;
+        padding: 15px 50px;
+        color: black;
+        font-family: Verdana;
+        text-decoration: none;
+    }
+
+        .menu > li > a:hover
+        {
+            background-color:rgb(25, 130, 118);
+        }
+
+    /*contenido imagen de perfil*/
+    
+    .contper
+    {
+        
+        height: auto;
+    }
+    .fondo
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .naranja .perfil
+    {
+        position: absolute;
+        margin-top: -120px;
+        margin-left: 545px;
+        border-radius: 300px;
+        height: 250px;
+        width: 20%;
+    }
+
+    /*contenido informativo*/
+
+    .contenedor{
+        position: absolute;
+        background-color: #ffffff;
+        width: 90%;
+        height: 150px;
+        margin:5% ;
+        margin-top: 12%;
+
+    }  
+
+    .date{
+        position: relative;
+        background-color: #ffffff;
+        border:2px solid;
+        border-color: #353434;
+        width:96%;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 2%;
+        text-align: center;
+    } 
+
+    .date .datos p
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family: Verdana;
+        color: black;
+        text-align: center;
+    }
+
+    .date .datos .text2
+    {
+        text-align: left;
+        max-width: 10px;
+    }
+
+    /*editar*/
+    .button { 
+        position: absolute;
+        text-decoration: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+        font-family: Verdana;
+        width: 170px;
+        text-align: center;
+        margin-top: -21.5%;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        background: #fc7323;
+        top: 410px;
+        margin-left: 1050px;
+        border-radius: 20px;
+    
+    }
+
+        .button:hover
+        {
+            background-color: rgb(25, 130, 118);
+            color: white;
+        
+        }
+
+    /*opciones*/
+
+    .opcion
+    {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .button3 
+    { 
+        position: relative;
+        text-decoration: none;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 170px;
+        text-align: center;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+        .button3 .butdos
+        {
+            margin: -10px 10px;
+        }
+
+        .button3:hover 
+        {
+            color: white;
+            background-color:  rgb(25, 130, 118); 
+        }
+
+    
+    /*aprendices*/
+
+    .button4 
+    { 
+        position: relative;
+        text-decoration: none;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 170px;
+        text-align: center;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        margin-left: 16%;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 2px;
+    }
+        .button4 .buttres
+        {
+            margin-right: 15px;
+            margin: -10px 10px;
+        }
+
+        .button4:hover
+        {
+            background-color: rgb(25, 130, 118);
+            color: white;
+        }
+
+
+    /*pie de pagina*/
+
+
+        .pie
+        {
+            position: relative;
+            width: 100%;
+            height: 75px;
+            background-color: #fc7323;
+            margin-top:550px;
+            display: flex;
+            align-items: flex-end;
+            border-top: 2px solid #fff;
+            margin-left: 0px;   
+        }
+
+        .pie img
+        {
+            margin-left: 10px;
+        }
+
+        .info 
+        {
+            border-left: solid white;
+            margin: 4px;
+        }
+
+        .info p
+        {
+            font-size: 12px;
+            color: #fff;
+            font-family: Verdana;
+            margin: 4px;
+            margin-left: 5px;
+            font-family: Verdana;
+        }
+
+    /*seguimiento*/
+
+    .seguimiento
+    {
+        border-radius: 5%;
+        background:rgb(25, 130, 118);
+        margin-top: -427px;
+        width: 94%;
+        margin-left: 3%;
+        height: 760px;
+        position: absolute;
+        
+    }
+    
+    .foor
+    {
+        background: white;
+        border-radius: 20px;
+        width: 40%;
+        height: 14%;
+        margin-top:5% ;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .forma
+    {
+        display: flex;
+        height: 50%;
+    }
+
+    .formu
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .formu input
+    {
+        background: white;
+        width: 93%;
+        height: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        margin-top:1%;
+        margin-left: 7%;
+        text-align: center;
+    }
+
+    .foor img
+    {
+        margin-top: 2%;
+        width: 10%;
+        height: 75%;
+        margin-right: 6%;
+    }
+
+    .opcioonar
+    {
+        width: 50%;
+        height: 30%;
+        margin-left: 50%;
+        margin-top: -9%;
+    }
+
+    .opcioonar input
+    {
+        margin-top: 4%;
+        width: 36%;
+        height: 10%;
+        padding: 20px 0px 40px 0px;
+        font-family: Verdana;
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        background: white;
+        border-radius: 20px;
+        border: none;
+    }
+    .opcioonar  .bot1
+    {
+        margin-right: 10%;
+        text-align: center;
+    }
+
+
+     /*evidencias*/
+
+    .conteiner{
+        border: 2px solid black;
+        width: 90%;
+        height:auto;
+        border-radius: 15px;
+        margin-left: 6%;
+        position: absolute; 
+        background-color: #ffffff; 
+        
+    }
+    .forman
+    {
+        width: 100%;
+        margin-top: 5%;
+        height: 280px;
+        display: flex;
+    }
+    .evi1
+    {
+        width: 50%;
+    }
+    .evi2
+    {
+        margin-top: 5%;
+        width: 34%;
+        margin-left: 1%;
+    }
+    .evi1 > span{
+        margin-left: 17%;
+        font-size: 23px;
+    }
+    .evi2 > span{
+        margin-left: 10%;
+        font-size: 23px;
+    }
+    
+    .evi1 input,
+    .evi2 input
+    {
+        cursor: pointer;
+    }
+    .botoonn
+    {
+        margin-left: 50%;
+        width: 40%;
+        height: 140px;
+        border-radius: 20px;
+        margin-top: -10%;
+        margin-bottom: 2%;
+    }
+
+    .botoonn input
+    {
+        cursor: pointer;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 22%;
+        width: 60%;
+        height: 30px;
+        background-color: white;
+    }
+
+    .botoonn input:hover
+    {
+        background-color: rgb(240, 236, 236);
+        transform: translatey(3px);
+    }
+    .funsi
+    {
+        display: flex;
+    }
+    button{
+        margin-left: 14%;
+        margin-top: 15px;
+        width: 30%;
+        height: 40px;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color:2px solid thistle ;
+        font-family: Verdana;
+    }
+    button:hover{
+        background:rgb(240, 236, 236);
+        transform: translatey(3px);
+        cursor: pointer;
+    }

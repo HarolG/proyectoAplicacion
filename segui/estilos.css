@@ -1,0 +1,611 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background: rgb(223, 222, 222);
+    font-family: Verdana;
+}
+
+.princi{
+    background-color: #ffffff;
+    height: 110px;
+
+}
+
+.cerrar li a{
+    font-family: Verdana;
+    font-size: 15px;
+    color: #fc7323;
+}
+
+.logo .segui{
+    font-family: Verdana;
+    font-size: 20px;
+    margin-left: 9%;
+    margin-top: -5%;
+    color: #238276;
+}
+.logo .seguiimg{
+    margin-left: 5px;
+}
+
+.segun{
+    position: absolute;
+    margin-left: 81.1%;
+    z-index: 1;
+    margin-top: -7.4%;
+
+}
+
+.navegacion {
+    background: white;
+    display: table;
+    width: 85%;
+    padding: 0 5.5em;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 0px;
+    border-color: #238276 transparent;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    
+}
+
+
+.navegacion  ul  li {
+    list-style: none;
+    margin: auto;
+    margin-left: 0px;
+   
+}
+
+.navegacion  ul  li {
+    padding: 5px 25px;
+}
+.navegacion .menu img{
+    margin-right: 15px;
+    margin: -5px 5px;
+}
+
+
+.menu  li {
+    font-family: Verdana;
+    display: inline-block;
+
+}
+
+.menu  li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.menu > li > a:hover{
+    background-color: #fc7323;
+    
+}
+
+.cerrar {
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.fondo{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.naranja .perfil{
+    position: absolute;
+    z-index: 11;
+    margin-top: -120px;
+    margin-left: 545px;
+    background-color: #fc7323;
+    border-radius: 300px;
+    height: 250px;
+    width: 20%;
+
+}
+
+
+.contenedor{
+    position: absolute;
+    background-color: #ffffff;
+    width: 90%;
+    height: 150px;
+    margin-left: 60px;
+    margin-top: 10%;
+
+}  
+.date{
+    position: relative;
+    background-color: #ffffff;
+    border:2px solid;
+    border-color: #353434;
+    width:96%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 2%;
+    text-align: center;
+} 
+.date .datos p{
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana;
+    color: black;
+    text-align: center;
+}
+.date .datos .text2{
+    text-align: left;
+    max-width: 10px;
+}
+
+
+.button { /*editar*/
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    width: 170px;
+    text-align: center;
+    margin-top: 29%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background: #238276;
+    top: 410px;
+    margin-left: 1000px;
+    border-radius: 20px;
+   
+}
+
+.button:hover{
+    background-color: rgb(252, 115, 35);
+    color: white;
+  
+}
+.button2 .butuno{
+    margin-right: 15px;
+    margin: -10px 10px;
+}
+
+.button2{ /*legalizacion*/
+    position: relative;
+    text-decoration: none;
+    margin: 0%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-family: verdana;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background: white;
+    top: 490px;
+    margin-left: 810px;
+    border-radius: 20px;
+    border-color: #238276 transparent;
+    border-style: solid;
+    border-width: 2px;
+    }
+    
+.button2:hover{
+       
+        background-color: rgb(252, 115, 35);
+        color: white;
+}
+.button3 .butdos{
+    margin-right: 15px;
+    margin: -10px 10px;
+}
+.button3 { /*certificacion*/
+
+        position: relative;
+        text-decoration: none;
+        margin: 0%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        font-family: verdana;
+        width: 170px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        margin-left: 520px;
+        border-radius: 20px;
+        border-color: #238276 transparent;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .button3:hover {
+        color: white;
+        background-color:  rgb(252, 115, 35); 
+    }
+    .button4 .buttres{
+        margin-right: 15px;
+        margin: -10px 10px;
+    }
+
+    .button4 { /*aprendices*/
+        position: relative;
+        text-decoration: none;
+        margin: 0%;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        font-family: Verdana;
+        width: 170px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background: white;
+        top: 470px;
+        margin-left: -550px;
+        border-radius: 20px;
+        border-color: #238276 transparent;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .button4:hover{
+        background-color: rgb(252, 115, 35);
+        color: white;
+        
+    }
+
+.pie {
+    background-color: #238276;
+    margin-top:600px;
+}
+.pie{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: #238276;
+    margin-top:600px;
+    display: flex;
+    align-items: flex-end;
+    border-top: 2px solid #fff;
+    margin-left: 0px;
+    
+}
+.pie img
+{
+    margin-left: 10px;
+    
+}
+.info 
+{
+   border-left: solid var(--white);
+   margin: 4px;
+   
+}
+.info p
+{
+    font-size: 12px;
+    color: #fff;
+    font-family: Verdana;
+    margin: 4px;
+    margin-left: 5px;
+    font-family: Verdana;
+}
+
+/* LEGALIZACIÓN --- HECHO POR: Daniela Nieto*/
+
+/*------OCULTOS-------*/
+.formLegalizar{
+    visibility: hidden;
+}
+
+.informa{
+    display: none;
+}
+
+.registroEmpre{
+    display: none;
+}
+
+.registroLegal{
+    display: none;
+}
+/*--------FIN--------*/
+
+.formLegalizar{
+
+    /*GRID = Trabajar con grid */
+    display: grid;
+    /*Definir numero de columnas*/
+    grid-template-columns: 1fr 1fr;
+    gap: 5x;
+    width: 60%;
+    background:#fc7323;
+    color: black;
+    padding: 1% 3% 5% 5%;
+    margin-left: 20%;
+    position: relative;
+    margin-top: 3%;
+}
+
+.buscador{
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-top: 1%;
+   width: 80%;
+   height: 25%;
+    
+}
+
+.buscarDocu{
+    padding: 4% 3%;
+}
+
+.inputB{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    width:70%;
+    margin-left: 20px;
+}
+
+.boton{
+    width: 35%;
+    height: 45%;
+    margin-top: -7%;
+    margin-left: 58%;
+}
+
+.registroEmpre, .registroLegal {
+    display: none;
+}
+
+.informa, .registroEmpre, .registroLegal{
+    background-color: #fff;
+    width: 80%;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.datosApre, .datosForma{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+
+}
+
+.dato{
+    margin-top: -15px;
+    padding: 5px;
+}
+
+.label{
+    display: block;
+    font-weight:600;
+    font-size: 13px;
+    padding: 13px;
+}
+
+.inputR, .seleccionTipo{
+    width: 80%;
+    background: #ffffff;
+    border: 2px solid rgba(201, 195, 195, 0.76);
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    transition: .3s ease all;
+    margin-top: -30px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.inputR:focus{
+    border: 2px solid #2456c0;
+	outline: none;
+	box-shadow: 3px 0px 20px rgba(255, 255, 255, 0.596);
+}
+
+.datos{
+    margin-left: 10%;
+    margin-top: -55px;
+}
+.archivo{
+    margin-left: 10%;
+    margin-top: -10%;
+    cursor: pointer;
+}
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 10px 5px;
+}
+
+.botonForm{
+    height: 30px;
+    width: 85px;
+    background: rgb(67, 70, 206);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 9px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.botonForm:hover {
+    background: rgb(74, 160, 209);
+}
+
+.tituloForm{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.subTitulo{
+    padding: 20px;
+    font-size: 17px;
+}
+
+.subTitulo1{
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/* CERTIFICACIÓN */
+
+/*------OCULTOS-------*/
+.formCertificar{
+    visibility: hidden;
+}
+.buscador2{
+    display: none;
+}
+.datosMostrar2, .cargaArchi{
+    display: none;
+}
+/*--------FIN--------*/
+
+.formCertificar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    background:#fc7323;
+    color: black;
+    padding: 2% 4% 3% 3%;
+    margin-left: 20%;
+    position: relative;
+    margin-top: -16%;
+    height: 2%;
+}
+
+.informa2{
+    background-color: #fff;
+    width: 90.7%;
+    padding: 2px 4px;
+    border-radius: 15px;
+    height: 80%;
+    margin-left: 5%;
+    grid-column: span 2;
+}
+.buscador2{
+    text-align: center;
+    margin-right: 2%;
+    height: 130px;
+}
+.subTitulo2{
+    padding: 4px 10px;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 5%;
+}
+.inputE{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    width:50%;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+.boton2{
+    width: 25%;
+    height: 35%;
+    margin-top: -4%;
+    margin-left: 58%;
+}
+.datosMostrar2{
+    background-color: #fff;
+    width: 94%;
+    padding: 10px 4px;
+    border-radius: 15px;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 10%;
+}
+.datosApre2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    width: 80%;
+    margin-left: 5%;
+}
+
+.datosForma2{
+    padding: 20px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    width: 80%;
+    margin-left: 5%;
+}
+
+
+
+.label2{
+    font-weight:600;
+    font-size: 13px;
+    padding: 10px 10px;
+}
+
+.labelE{
+    font-weight:600;
+    font-size: 13px;
+    padding: 10px 10px;
+    grid-column: 1;
+    color: crimson;
+}
+.inputC{
+    margin-left: 5%;
+}
+
+.cargaArchi{
+    background-color: #fff;
+    width: 91%;
+    padding: 10px 6px;
+    border-radius: 15px;
+    height: 100%;
+    margin-top: -3%;
+}
+.botones2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 5px 5px;
+    grid-column: span 2;
+}
+.botonForm2{
+    height: 35px;
+    width: 95px;
+    background: rgb(67, 70, 206);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+.botonForm2:hover {
+    background: rgb(74, 160, 209);
+}
